@@ -5,7 +5,7 @@ source("aux_funs_general.R")
 #DAG and matrix sparsity plots (fig 1)-------------------
 #install.packages("igraph")
 library(igraph); library(ggraph); library(tidyverse); library(ggplot2); library(latex2exp)
-library(tidygraph); library(RColorBrewer); library(tikzDevice)
+library(tidygraph); library(RColorBrewer); library(GPvecchia)
 d1 = data.frame(from = "origin", 
                 to = paste("group", seq(1,2), sep = ""), edge.cat = rep(1, 2))
 d2 = data.frame(from = rep(d1$to, each = 2), 
