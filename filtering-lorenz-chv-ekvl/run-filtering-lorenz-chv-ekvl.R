@@ -4,7 +4,6 @@ source("aux_funs_general.R")
 Rfast::sourceR(path = "GPvecchia//R//")
 #source("C://PhD Research//Self//UMRF//Resource codes//vecchiaFilter//aux-functions.R")
 source("lorenz-simulations-functions//aux-functions-Lorenz.r")
-source("C://PhD Research//Self//UMRF//Resource codes//vecchiaFilter//scores.r")
 
 library(VEnKF)
 library(Matrix)
