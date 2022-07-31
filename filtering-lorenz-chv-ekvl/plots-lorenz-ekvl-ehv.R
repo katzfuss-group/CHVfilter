@@ -79,7 +79,7 @@ Tmax = length(result.lorenz.ours[[1]]$predsMRAnoevolerror)
 attach(locsettings); i = 1
 #for(i in num){
 t = 1
-pdf(paste0("lornenStatePlot_N_", length(locsettings$locsOrderedPoints), 
+pdf(paste0("filtering-lorenz-chv-ekvl/lornenStatePlot_N_", length(locsettings$locsOrderedPoints), 
            "_T_", t,"_seed_", num,  ".pdf"), height = 8, width = 10)
 par(mfrow = c(1, 1), mar = c(3, 3, 1, 1))
 #for(t in 1:Tmax){
@@ -100,7 +100,7 @@ dev.off()
 
 
 t = 3
-pdf(paste0("lornenStatePlot_N_", length(locsettings$locsOrderedPoints), 
+pdf(paste0("filtering-lorenz-chv-ekvl/lornenStatePlot_N_", length(locsettings$locsOrderedPoints), 
            "_T_", t,"_seed_", num,  ".pdf"), height = 8, width = 10)
 par(mfrow = c(1, 1), mar = c(3, 3, 1, 1))
 #for(t in 1:Tmax){
@@ -120,8 +120,8 @@ matplot(x = sort(locsOrderedPoints),
 dev.off()
 
 
-t = 20
-pdf(paste0("lornenStatePlot_N_", length(locsettings$locsOrderedPoints), 
+t = 30
+pdf(paste0("filtering-lorenz-chv-ekvl/lornenStatePlot_N_", length(locsettings$locsOrderedPoints), 
            "_T_", t,"_seed_", num,  ".pdf"), height = 8, width = 10)
 par(mfrow = c(1, 1), mar = c(3, 3, 1, 1))
 #for(t in 1:Tmax){
