@@ -2,7 +2,7 @@
 
 We propose a scalable filtering approach based on a hierarchical sparse Cholesky representation of the filtering covariance matrix. At each time point, we  compress the sparse Cholesky factor into a dense matrix with a small number of columns. After applying the evolution to each of these columns, we decompress to obtain a hierarchical sparse Cholesky factor of the forecast covariance, which can then be updated based on newly available data.
 
-Note - This repository contains a directory named GPvecchia which exactly resembles the R package `GPvecchia`. However, this local directory contains few additional codes needed for running our filtering algorithm. Hence, we must load this directory as well (this will be automatically implemented if you follow the instrructions below).
+Note - This repository contains a directory named GPvecchia which exactly resembles the R package `GPvecchia`. However, this local directory contains few additional codes needed for running our filtering algorithm. Hence, we must load this directory as well (this will be automatically implemented if you follow the instructions below).
 
 ## Installation
 
