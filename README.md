@@ -12,6 +12,10 @@ At first, clone this directory from git in your local library using the followin
 git clone https://github.com/katzfuss-group/CHVfilter.git
 ```
 
+## Loading the project
+
+After cloning the repository, open the file named `CHVfilter.Rproj` in RStudio to load the proper directories.
+
 ## Usage
 
 ### 1\. Installing prerequisite packages
